@@ -1,0 +1,20 @@
+<header>
+    <nav>
+        <ul>
+            <li>
+                <h3>{{ site.title }}</h3>
+            </li>
+        </ul>
+        <ul>
+            {% if page.is_post %}
+            <li>
+                <a href="/">return to home</a>
+            </li>
+            {% else %}
+            <li>
+                <a href="/assets/Anmol_Brar_Resume.pdf">résumé</a>
+            </li>
+            {% endif %}
+        </ul>
+    </nav>
+</header>

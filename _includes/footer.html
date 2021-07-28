@@ -1,0 +1,7 @@
+<footer>
+    {% for contact in site.contacts %}
+    <a href="{{ contact[1] }}" id="contact">
+        <i data-feather="{{ contact[0] }}"></i>
+    </a>
+    {% endfor %}
+</footer>

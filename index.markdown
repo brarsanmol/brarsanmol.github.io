@@ -1,6 +1,25 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: "home"
 ---
+
+<section>
+    <h3>about</h3>
+    <div>
+        {{ site.about | markdownify }}
+    </div>
+</section>
+
+{% if site.posts? %}
+<section>
+    <h3>writings</h3>
+    {% for post in site.posts %}
+    <div id="writing">
+        <a href="{{ post.url }}">
+            {{ post.title }}
+        </a>
+        {{ post.date | date_to_long_string: "ordinal" }}
+    </div>
+    {% endfor %}
+</section>
+{% endif %}

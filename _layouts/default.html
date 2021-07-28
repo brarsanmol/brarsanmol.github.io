@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/assets/css/style.css" />
+        <!-- Begin Jekyll SEO tag v2.7.1 -->
+        <title>anmol brar | {{ page.title }}</title>
+        <meta name="generator" content="Jekyll v4.2.0" />
+        <meta property="og:title" content="anmol brar | {{ page.title }}" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="description" content="{{ site.description }}" />
+        <meta property="og:description" content="{{ site.description }}" />
+        <link rel="canonical" href="/" />
+        <meta property="og:url" content="/" />
+        <meta property="og:site_name" content="anmol brar | {{ page.title }}" />
+        <meta name="twitter:card" content="summary" />
+        <meta property="twitter:title" content="anmol brar | {{ page.title }}" />
+        <script type="application/ld+json">
+            {"url":"/","@type":"WebSite","headline":"{{ page.title }}","description":"{{ site.description }}","name":"{{ page.title }}","@context":"https://schema.org"}
+        </script>
+        {% if jekyll.environment == 'production' %}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KVQ4VTVEYK"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', '{{ site.google_analytics_tracking_id }}');
+        </script>
+        {% endif %}
+        <!-- End Jekyll SEO tag -->
+    </head>
+    <body>
+        {% include header.html %}
+        <main>
+            {% if page.is_post %}
+                {% include post_header.html %}
+            {% endif %}
+            {{ content }}
+        </main>
+        {% include footer.html %}
+        <script type="text/javascript" src="/assets/javascript/feather.min.js"></script>
+        <script>feather.replace()</script>
+    </body>
+</html>

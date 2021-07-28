@@ -18,21 +18,45 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: anmol brar
+email: hey@anmolbrar.ca
+about: |
+  hey! welcome to my corner of the internet. i'm anmol, an 18-year-old software developer from canada and computer science student at mcgill university.
+
+  my professional interests include hacking for social good, human-computer interaction, and designing performant software.
+
+  aside from software development, i am an avid swimmer, and i enjoy reading about history, philosophy, and politics.
+
+  if you want to get in touch, feel free to reach out via [e-mail](mailto:hey@anmolbrar.ca) or a direct message through [twitter](https://www.twitter.com/brarsanmol).
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Anmol Brar is an 18 year old software developer from Canada currently studying Computer Science at McGill University.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+resume: assets/Anmol_Brar_Resume.pdf
+google_analytics_tracking_id: G-KVQ4VTVEYK
+
+contacts:
+  rss: "/feed.xml"
+  mail: "mailto:hey@anmolbrar.ca"
+  linkedin: "https://www.linkedin.com/in/brarsanmol"
+  github: "https://www.github.com/brarsanmol"
+  twitter: "https://www.twitter.com/brarsanmol"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      is_post: true
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
+
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
 
 # Exclude from processing.
 # The following items will not be processed, by default.
