@@ -10,7 +10,7 @@ title: "home"
     </div>
 </section>
 
-{% if site.posts? %}
+{% if site.posts.size > 0 %}
 <section>
     <h3>writings</h3>
     {% for post in site.posts %}
@@ -18,7 +18,7 @@ title: "home"
         <a href="{{ post.url }}">
             {{ post.title }}
         </a>
-        {{ post.date | date_to_long_string: "ordinal" }}
+        {{ post.date | date_to_long_string: "ordinal" | downcase }}
     </div>
     {% endfor %}
 </section>

@@ -3,6 +3,6 @@
         <strong>{{ page.title }}</strong>
     </p>
     <p>
-        <i>{{ page.date | date_to_long_string: "ordinal" }}</i>
+        <i>{{ page.date | date_to_long_string: "ordinal" | downcase }}</i>
     </p>
 </div>
