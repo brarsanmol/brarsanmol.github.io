@@ -12,7 +12,7 @@ title: "home"
 
 {% if site.posts.size > 0 %}
 <section>
-    <h3>writings</h3>
+    <h3>writing</h3>
     {% for post in site.posts %}
     <div id="writing">
         <a href="{{ post.url }}">
