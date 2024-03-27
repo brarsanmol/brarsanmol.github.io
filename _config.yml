@@ -21,21 +21,23 @@
 title: anmol brar
 email: hey@anmolbrar.ca
 about: |
-  hey! welcome to my corner of the internet. i'm anmol, a 20-year-old software developer from canada and computer science student at mcgill university.
+  hey! welcome to my corner of the internet. i'm anmol a 21-year-old hailing from the greater toronto area, currently studying computer science at [mcgill university](https://mcgill.ca/). 
 
   this year i'll be...
-    * a intern at [nvidia](https://nvidia.com).
-    * helping [mcgill csus](https://mcgill-csus.ca) organize industry-related events.
+    * an intern at [nvidia](https://nvidia.com).
+    * building software to help connect the indian diaspora in canada!
 
-  last year i was...
-    * interning at [nvidia](https://nvidia.com) doing full stack web development and devops.
-    * helping organize [mchacks](https://mchacks.ca), mcgill's largest hackathon!
+  in the past i have...
+    * interned at [nvidia](https://nvidia.com) building infrastructure and cool software for board validation.
+    * built software for non-profits with [hack4impact](https://mcgill.hack4impact.org/).
+    * helped organize [mchacks](https://mchacks.ca), mcgill's largest hackathon!
+    * helped [mcgill csus](https://mcgill-csus.ca) organize industry-related events.
 
   in my free time i enjoy reading books, swimming, and biking.
 
   if you want to get in touch, feel free to reach out via [e-mail](mailto:hey@anmolbrar.ca) or a direct message through [twitter](https://www.twitter.com/brarsanmol).
 description: >- # this means to ignore newlines until "baseurl:"
-  Anmol Brar is a 20 year old software developer from Canada currently studying Computer Science at McGill University.
+  Anmol Brar is a 21 year old software developer from Canada currently studying Computer Science at McGill University.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 resume: assets/Anmol_Brar_Resume.pdf
